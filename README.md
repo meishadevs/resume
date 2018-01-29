@@ -1,6 +1,6 @@
 
 # 我的网页版简历
-> 基于 gulp jQuery 构建的个人简历
+> 基于 gulp、jQuery 构建的个人简历
 
 在线访问 [http://meishadevs.com/resume/](http://meishadevs.com/resume/)
 
