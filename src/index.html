@@ -6,8 +6,7 @@
     <meta name="description" content="傅颖涛的个人简历">
     <meta name="keywords" content="前端简历,个人简历">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/fontello.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.min.css">
 </head>
 <body>
 <aside>
@@ -111,7 +110,7 @@
                         <p>3、项目实现前后端分离，使用 axios 和服务器做数据交互</p>
                         <p>4、项目代码使用 ES6 编写，使用 ESLint 规范代码格式</p>
                         <p>5、当涉及组件之间的数据交互时，简单的数据交互使用 props 结合自定义事件实现
-                        较复杂的数据交互使用 vuex 实现</p>
+                            较复杂的数据交互使用 vuex 实现</p>
                         <p>6、最后使用 Webpack 构建、打包、发布</p>
                         <p>7、服务器端采用 PHP 和 MySQL 实现</p>
                     </li>
@@ -148,7 +147,7 @@
                     <li>
                         <p>1、热爱前端开发、爱开源、爱分享</p>
                         <p>2、<a href="https://github.com/meishadevs">GitHub</a> 上的活跃用户，平均每天有一次提交，Followers 7，总 Star 数 25</p>
-                        <p>3、时常通过<a href="http://meishadevs.com/">个人博客</a>总结平时遇到的 bug 的解决方法，截止到目前一共写了19篇技术博客</p>
+                        <p>3、时常通过<a href="http://meishadevs.com/">个人博客</a>总结平时用到的技术，截止到目前一共写了 19 篇技术博客</p>
                         <p>4、轻微强迫症，注重代码规范</p>
                     </li>
                 </ul>
@@ -156,24 +155,7 @@
         </ul>
     </div>
 </div>
-
-<script src="lib/jquery/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#goTop1,#goTop2').click(function() {
-            $('body').animate({
-                scrollTop: 0
-            }, 300)
-        });
-        $(window).scroll(function(){
-            var scrollTop = $(document).scrollTop();
-            if(scrollTop > 400){
-                $('#goTop1').show();
-            }else{
-                $('#goTop1').hide();
-            }
-        })
-    })
-</script>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./js/index.min.js"></script>
 </body>
 </html>
