@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "a simple web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meishadevs/resume.git"
+  },
+  "author": "meishadevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meishadevs/resume/issues"
+  },
+  "homepage": "https://github.com/meishadevs/resume#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
