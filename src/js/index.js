@@ -9,14 +9,14 @@ $(document).ready(function() {
     $(window).scroll(function () {
 
         //如果滑动了浏览器的滑块，显示回到顶部按钮
-        $(document).scrollTop() > 400 ? $("#goTop").show() : $("#goTop").hide();
+        $(document).scrollTop() > 400 ? $(".go-top").show() : $(".go-top").hide();
 
         //把滑块滑动的距离给起始位置
         leader = $(document).scrollTop();
     });
 
     //个回到顶部按钮添加一个点击事件
-    $("#goTop").on("click", function () {
+    $(".go-top").on("click", function () {
 
         clearInterval(timer);
 

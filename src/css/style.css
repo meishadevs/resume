@@ -311,6 +311,11 @@ footer p {
     animation: throb 1.33s ease-in-out infinite
 }
 
+.go-top {
+    cursor: pointer;
+    display: none;
+}
+
 @-webkit-keyframes throb {
     0%,
     100% {
@@ -332,3 +337,4 @@ footer p {
         transform: scale(.8)
     }
 }
+
